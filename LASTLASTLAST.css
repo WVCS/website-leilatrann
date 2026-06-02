@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #FFA39A;
+}
+h2 {
+	color: palevioletred;
+	text-decoration:  UNDERLINE wavy 3PX WHITE   ;
+}
+nav {
+	width: 100%
+	margin: 0;
+	top: 0;
+	padding: 0;
+	left: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff91a4;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: firebrick;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #CF4242;
+}
+
